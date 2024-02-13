@@ -21,7 +21,7 @@ public class DigitalLibrary {
             System.out.println("Books available in the library:");
             for (Book book : books) {
                 System.out.println(book);
-            }
+            } 
         }
     }
     public void displayBookTiltle(){
