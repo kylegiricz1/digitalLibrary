@@ -24,5 +24,15 @@ public class DigitalLibrary {
             }
         }
     }
+    public void displayBookTiltle(){
+            if (books.isEmpty()){
+                System.out.println("No books in the library.");
+            }
+            else{
+                for(Book book : books){
+                    System.out.println(book.getTitle());
+                }
+            }
+    }
 }
 

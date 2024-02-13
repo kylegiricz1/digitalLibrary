@@ -10,6 +10,7 @@ public class Main {
         library.addBook(new Book("1984", "George Orwell", 1949));
 
         // Displaying books in the library
-        library.displayBooks();
+        //library.displayBooks();
+        library.displayBookTiltle();
     }
 }
